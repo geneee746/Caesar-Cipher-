@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <input type="text" id="plaintext" placeholder="Message to Encode..."></input>
+    <input type="number" id="shift" placeholder="0"></input>
+    <button onclick="encode()">Encode!</button>
+
+    <br />
+    <p id="encoded">Encode a message!</p>
+
+    <input type="text" id="ciphertext" placeholder="Message to Decode..."></input>
+    <input type="number" id="unshift" placeholder="0"></input>
+    <button onclick="decode()">Decode!</button>
+
+    <br />
+    <p id="decoded">Decode a message!</p>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
